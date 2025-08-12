@@ -9,6 +9,8 @@ public class Test {
 		
 		service.printTeamDetails();
 		
+		System.out.println("Test GitHub");
+		
 	}
 
 }

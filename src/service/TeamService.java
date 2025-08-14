@@ -40,7 +40,6 @@ public class TeamService {
 			System.out.println("in case 2");
 			System.out.println("Please enter your fav teams short name : ");
 			String teamShortName = sc.next();
-			System.out.println(teamShortName.toLowerCase());
 			System.out.println("Entered team short name is : " + teamShortName);
 			getTeamByShortName(teamShortName);
 			break;

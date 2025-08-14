@@ -40,12 +40,16 @@ public class TeamService {
 			System.out.println("in case 2");
 			System.out.println("Please enter your fav teams short name : ");
 			String teamShortName = sc.next();
+			System.out.println(teamShortName.toLowerCase());
 			System.out.println("Entered team short name is : " + teamShortName);
 			getTeamByShortName(teamShortName);
 			break;
 		}
+		
 		default:
 			throw new IllegalArgumentException("Unexpected value: " + input);
+		}
+		
 		}
 		
 		private void getTeamByShortName(String shortName) {
@@ -111,9 +115,5 @@ public class TeamService {
 		
 	}
 
-	private void getTeamByShortName1(String teamShortName) {
-		// TODO Auto-generated method stub
-		
-	}
 
 }
